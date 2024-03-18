@@ -1,0 +1,199 @@
+/* CSS Document */
+
+body {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+margin:0;
+padding:0;
+color :#c4c4c4;
+background-color:#222222;
+}
+
+a:link {
+	color: #fff;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #fff;
+}
+a:hover {
+	text-decoration: underline;
+	color: #fff;
+}
+a:active {
+	text-decoration: none;
+	color: #fff;
+}
+
+#top_wrapper {
+width:800px;
+height:auto;
+margin:0 auto;
+margin-bottom:10px;
+padding-top:20px;
+}
+
+#logo {
+width:auto;
+height:auto;
+line-height:20px;
+}
+
+h1 {
+color:#7ca939;
+font-size:26px;
+margin:0;
+padding:0;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+.logo1 {
+color:#dbdbdb;
+}
+
+.logo2 {
+font-size:18px;
+color:#d0d0d0;
+font-family: "trebuchet MS";
+}
+
+/*-------------------------CONTENT--------------------------*/
+
+#top_bg {
+width:804px;
+height:7px;
+background-image:url(top_bg.jpg);
+background-repeat:no-repeat;
+margin:0 auto;
+padding:0;
+}
+
+#bottom_bg {
+width:804px;
+height:7px;
+background-image:url(bottom_bg.jpg);
+background-repeat:no-repeat;
+margin:0 auto;
+padding:0;
+}
+
+#content_wrapper {
+padding-left:7px;
+padding-right:7px;
+width:786px;
+height:auto;
+margin:0 auto;
+border-left:2px #4e4e4e solid;
+border-right:2px #4e4e4e solid;
+background-color:#292929;
+}
+
+/*----------------------------MENU--------------------------*/
+
+#foxmenucontainer{width:786px;height:104px;display:block;}
+
+#foxmenu{position:relative;display:block;height:104px;font-size:12px;
+font-family:Verdana,Helvitica,sans-serif; font-weight:bold; background-color:#535353;}
+
+#foxmenu ul{ height:100px;margin:0;padding:0;list-style-type:none;width:auto;}
+
+#foxmenu ul li{width: auto; height:104px;display:block;float:left;margin:0 0px 0 0; border-right:1px solid #292929;}
+
+#foxmenu ul li a{display:block;float:left;color:#c9c9c9;text-decoration:none;
+padding:40px 10px 0 10px;height:60px; width: auto; text-align:center;}
+
+#foxmenu ul li a:hover{width: auto; height:60px; border-bottom:4px #7ca939 solid;}
+
+/*---------------BANNER--------------------*/
+
+#banner {
+width:786px;
+height:211px;
+background-image:url(banner.jpg);
+background-repeat:no-repeat;
+margin-top:5px;
+}
+
+.bstyle {
+font-size:22px;
+color:#434343;
+font-family:"trebuchet MS";
+padding-left:480px;
+padding-top:60px;
+}
+
+#welcome {
+width:786px;
+height:auto;
+border-bottom:1px solid #434343;
+padding-bottom:20px;
+}
+
+h2 {
+font-size:24px;
+color:#89bd3c;
+margin:0;
+padding:0;
+margin-bottom:15px;
+padding-top:20px;
+font-weight:normal;
+}
+
+#foto {
+width:166px;
+height:87px;
+background-image:url(foto.jpg);
+background-repeat:no-repeat;
+margin-left:5px;
+float:left;
+margin-right:15px;
+}
+
+#services {
+width:786px;
+height:auto;
+}
+
+#company {
+width:375px;
+height:auto;
+float:left;
+padding-left:5px;
+padding-bottom:20px;
+margin-right:15px;
+}
+
+#read_more {
+width:370px;
+height:auto;
+text-align:right;
+font-weight:bold;
+padding-right:10px;
+
+}
+
+#read_more a{
+color:#FFFFFF;
+text-decoration:none;
+}
+
+#read_more a:hover{
+text-decoration: underline;
+}
+
+#oservices {
+width:375px;
+height:auto;
+float:left;
+padding-left:5px;
+padding-bottom:20px;
+}
+
+#footer_wrapper {
+width:786px;
+height:auto;
+margin:0 auto;
+text-align:center;
+padding-top:20px;
+}

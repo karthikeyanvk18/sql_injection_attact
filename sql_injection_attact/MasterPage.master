@@ -1,0 +1,54 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Untitled Page</title>
+     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  <%--<link type="text/css" rel="stylesheet" href="images/cssstyle.css" />--%>
+	
+	<meta name="keywords" content="insurance company website template, website template, website templates, free website template, free website templates" />
+	<meta name="description" content="Download free website templates at Pro Website Templates." />
+    
+   <%-- <link rel="stylesheet" href="biz_style.css"  type="text/css" />--%>    
+    <script type="text/javascript" src="Scripts/calendar.js"></script>
+    <script type="text/javascript" src="Scripts/calendar-setup.js"></script>
+    <script type="text/javascript" src="Scripts/calendar-en.js"></script>
+    
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server" style="background-color: #000066">
+    <br />
+    <table align="center" bgcolor="White" style="height: 342px; width: 86%">
+    <tr>
+    <td>
+            <asp:ContentPlaceHolder id="cphHeading" runat="server">
+                <asp:Image ID="Image1" runat="server" ImageUrl="images/heading.jpg" 
+                    Height="342px" Width="100%" />
+            </asp:ContentPlaceHolder>
+    </td>
+    </tr>
+    
+    <tr>
+    <td>
+        
+    </td>
+    </tr>
+    </table>
+    
+    
+    <table align="center" bgcolor="White" style="height: 342px; width: 86%">
+    <tr>
+    <td>
+        <asp:ContentPlaceHolder ID="cphUse" runat="server">
+        </asp:ContentPlaceHolder>
+    </td>
+    </tr>
+    </table>
+        <br />
+    </form>
+</body>
+</html>
